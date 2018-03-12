@@ -22,7 +22,7 @@ logging:
 spring:
     profiles:
         active: dev
-        include: swagger
+        include: swagger,no-liquibase
     devtools:
         restart:
             enabled: true
@@ -44,6 +44,8 @@ spring:
     jpa:
         database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
         database: MYSQL
+        hibernate:
+          ddl-auto: update 
         show-sql: true
         properties:
             hibernate.id.new_generator_mappings: true

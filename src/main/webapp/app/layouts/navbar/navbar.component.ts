@@ -14,7 +14,7 @@ import { VERSION } from '../../app.constants';
         'navbar.scss'
     ]
 })
-export class NavbarComponent implements OnInit {
+    export class NavbarComponent implements OnInit {
     inProduction: boolean;
     isNavbarCollapsed: boolean;
     languages: any[];
