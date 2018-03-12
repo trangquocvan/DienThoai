@@ -16,7 +16,6 @@ import { MofHomeModule } from './home/home.module';
 import { MofAdminModule } from './admin/admin.module';
 import { MofAccountModule } from './account/account.module';
 import { MofEntityModule } from './entities/entity.module';
-import {MofProductModule} from './product/product.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
@@ -38,7 +37,6 @@ import {
         MofAdminModule,
         MofAccountModule,
         MofEntityModule,
-        MofProductModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
@@ -46,7 +44,7 @@ import {
         NavbarComponent,
         ErrorComponent,
         PageRibbonComponent,
-        FooterComponent,
+        FooterComponent
     ],
     providers: [
         ProfileService,
