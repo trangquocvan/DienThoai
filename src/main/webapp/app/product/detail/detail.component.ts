@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
     selector: 'jhi-product-detail',
     templateUrl: './detail.component.html',
-    styleUrls: [
-        'detail.component.scss'
-    ]
+    styleUrls: ['detail.component.scss']
 })
 export class DetailComponent implements OnInit {
     constructor() {

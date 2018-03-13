@@ -4,6 +4,6 @@ export const productDetailRoute: Route = {
     path: 'product-detail',
     component: DetailComponent,
     data: {
-        authorities: [],
-    },
-}
+        authorities: []
+    }
+};
